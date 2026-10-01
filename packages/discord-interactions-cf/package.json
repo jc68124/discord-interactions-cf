@@ -1,0 +1,31 @@
+{
+  "name": "@jc68124/discord-interactions-cf",
+  "version": "0.0.1",
+  "description": "Framework for accepting Interactions from Discord on Cloudflare workers",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jc68124/discord-interactions-cf.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "24.19.0",
+    "typescript": "7.0.2"
+  },
+  "dependencies": {
+    "@discordjs/builders": "1.14.1",
+    "@discordjs/formatters": "0.6.2",
+    "@discordjs/rest": "2.6.3",
+    "@sapphire/snowflake": "3.5.5",
+    "discord-api-types": "0.38.56"
+  }
+}
