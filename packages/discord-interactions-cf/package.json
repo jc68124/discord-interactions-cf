@@ -1,6 +1,6 @@
 {
   "name": "@jc68124/discord-interactions-cf",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Framework for accepting Interactions from Discord on Cloudflare workers",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
